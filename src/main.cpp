@@ -22,5 +22,5 @@ void loop() {
     int lightPercent = map(ldrValue, 0, 1023, 0, 100);
     Serial.println(ldrValue);
     Serial.println(lightPercent);
-    delay(500);
+    delay(800);
 }
